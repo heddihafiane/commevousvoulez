@@ -1,5 +1,7 @@
 
 $(document).ready(function(){
-	alert("Bienvue");
+	alert("Bienvenue");
+	$("p").on("click",function() {
 	$("p").addClass('red');
+})
 });
